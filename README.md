@@ -14,7 +14,7 @@ Most of the folders have a `README` with additional information. The repository 
 - **bom**: contains the bill of material. 
 - **cad**: contains the `.stl` files to be printed, and the original cad file. 
 - **code**: contains the python source code, and a `systemd` service file. 
-- **report**: contains the final 
+- **report**: contains the report of the project.
 
 > [!NOTE]  
 > The electronic schematics are inside the report.
