@@ -1,0 +1,4 @@
+wmm2020
+numpy
+adafruit-circuitpython-icm20x
+pynmea2

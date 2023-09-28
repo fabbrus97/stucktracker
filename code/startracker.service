@@ -1,0 +1,15 @@
+[Unit]
+Description=Star tracker starting service
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=pi
+ExecStart=/usr/bin/env python3 /home/pi/startracker/main.py 
+
+[Install]
+WantedBy=multi-user.target
+
+#reference: https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6
